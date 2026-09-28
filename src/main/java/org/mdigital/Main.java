@@ -45,6 +45,6 @@ public class Main {
 
         // money converter
         MoneyConverter m = new MoneyConverter();
-        System.out.println(m.convertToCoins(60));
+        System.out.println(m.convertToCoins(12));
     }
 }
