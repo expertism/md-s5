@@ -42,5 +42,9 @@ public class Main {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+
+        // money converter
+        MoneyConverter m = new MoneyConverter();
+        System.out.println(m.convertToCoins(60));
     }
 }
