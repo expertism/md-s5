@@ -11,6 +11,4 @@ public class BankAccount {
     public String toString() {
         return "Balance: " + this.balance;
     }
-
-
 }
