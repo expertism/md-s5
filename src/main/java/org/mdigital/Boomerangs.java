@@ -18,7 +18,7 @@ public class Boomerangs {
         return count;
     }
 
-    public static void main() {
+    static void main() {
         int[] input = {3, 7, 3, 2, 1, 5, 1, 2, 2, -2, 2};
         int total = boomerang(input);
 
